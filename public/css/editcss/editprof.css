@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+.container{
+    height: 100vh;
+    width: 100%;
+    display: grid;
+    align-items: center;
+}
+
+.header-content form{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: 1fr 1fr;
+}
+
+.header-content form input{
+    margin: 10px;
+    padding: 10px;
+
+}
+
+.header-content form select{
+    margin: 10px;
+    padding: 10px;
+}
+
